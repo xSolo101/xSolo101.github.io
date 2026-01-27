@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=“en”>
+<html lang="en">
 <head>
 <title>Pizza Ordering Form</title>
 </head>
@@ -12,14 +12,14 @@
 <input type="text" name="inName" id="inName" required><br>
 
 <label for="inName">Phone :</label>
-<input type="number" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" required><br>
+<input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
 
 <label for="inName">Email :</label>
 <input type="email" name="email" id="email" required>
 
 
 <h2>Select Pizza Size</h2>
-<label for="pizzaSize">Pizza Size:</label>
+<label for="Pizza_Size">Pizza Size:</label>
 <select name="Pizza_Size" id="Pizza_Size" required>
 <option value="" selected>--Select Size--</option>
 <option>Meduim</option>
@@ -29,18 +29,18 @@
 
 
 <h2>Select Sauce</h2>
-<input type="radio" name="Sauce" required><label>Marinara</br></label>
-<input type="radio" name="Sauce"><label>Ranch</label></br></label>
-<input type="radio" name="Sauce"><label>No Sauce</label></br></label>
+<input type="radio" name="Sauce" required><label>Marinara</label><div></div>
+<input type="radio" name="Sauce"><label>Ranch</label></label><div></div>
+<input type="radio" name="Sauce"><label>No Sauce</label></label><div></div>
 
 
 <h2>Select Toppings</h2>
 <input type="checkbox"><label>Pepperoni</label>
-<input type="checkbox"><label>Sausage</br></label>
+<input type="checkbox"><label>Sausage</label><div></div>
 <input type="checkbox"><label>Mushroom</label>
-<input type="checkbox"><label>Pineapple</br></label>
+<input type="checkbox"><label>Pineapple</label><div></div>
 <input type="checkbox"><label>Peppers</label>
-<input type="checkbox"><label>Onions</br></label>
+<input type="checkbox"><label>Onions</label><div></div>
 
 
 <h2>Additional Instructions</h2>
