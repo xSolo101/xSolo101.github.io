@@ -1,0 +1,54 @@
+body {
+  background-color: lightblue;
+}
+
+h1{
+   font-family: 'arial', 'verdana', sans-serif;
+   font-size: 55px;	 
+   text-align:center;
+}
+
+h2{
+  font-size: 35px;
+}
+#paragraph2{
+  background-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-color: green;
+  padding: 30px 40px;
+  width: 50%;
+  margin: 20px;
+  line-height: 1.5em;
+}
+.blue{
+  color: white;
+  background-color: DarkBlue;
+  padding: 20px 20px;
+}
+ol {
+  list-style-type: decimal-leading-zero;
+  font-size: 20px
+}
+ol li a{
+font-size: 14px;
+}
+h3{
+font-size: 20px;
+}
+p a {
+  color: Orange;
+}
+table{
+ border-collapse: collapse;
+ border: 1px solid;
+}
+table th{
+ background-color: LightGrey;
+ border: 1px solid;
+}
+table td{
+border: 1px solid;
+ background-color: white;
+ padding: 10px 10px;
+}
