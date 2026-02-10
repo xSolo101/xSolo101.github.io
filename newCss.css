@@ -117,6 +117,16 @@ margin-left: 10%
   }
 
 #container article:hover {
-    color: black;
-    transform: scale(1.15);
+  color: black;
+  transform: scale(1.15);
 }
+#thanks{
+  position: fixed;
+  padding: 18px 12px;
+  bottom: -40px;
+  right: 0px;
+  background: lightblue;
+  font-size: 35px;
+  border: 1px solid black;
+}
+
