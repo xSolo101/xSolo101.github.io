@@ -1,0 +1,28 @@
+/* Phone */
+@media (max-width: 412px) {
+  body {
+    background-color: lightblue;
+  }
+
+  #blippyPhoto {
+    width: 200%;
+    height: auto;
+  }
+
+  #e4pic {
+  width: 100%;
+  height: auto;
+}
+
+}   
+
+@media (min-width: 413px) {
+  body {
+    background-color: lightgrey;
+  }
+
+#e4pic {
+  width: 30%;
+  height: auto;
+}
+}
