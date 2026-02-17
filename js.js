@@ -1,8 +1,6 @@
 let counter =0;
 let result = "";
-let carObject1 = {cType: "sedan", cMPG: "32", cColor: "blue"};
-let carObject2 = {cType: "truck", cMPG: "28", cColor: "red"};
-let carObject3 = {cType: "van", cMPG: "30", cColor: "green"};
+
 
 function tickUp() {
     counter++;
@@ -14,23 +12,24 @@ function tickDown() {
     document.getElementById("counter").textContent = counter;
 }
 
-function runForLoop(){
+function runForLoop() {
+    let result = "";
     for (let i = 0; i <= counter; i++) {
         result += i + " ";
     }
-
     document.getElementById("forLoopResult").textContent = result;
 }
 
 function showOddNumbers() {
-    for (let i = 0; i <= counter; i++) {
-        if (i % 2 == 1) {
+    let result = "";
+    for (let i = 1; i <= counter; i++) {
+        if (i % 2 === 1) {
             result += i + " ";
         }
     }
-
     document.getElementById("oddNumberResult").textContent = result;
 }
+
 
 function addMultiplesToArray() {
     let multiples = [];
@@ -49,16 +48,15 @@ function printCarObject() {
     let mpg = document.getElementById("carMPG").value;
     let color = document.getElementById("carColor").value;
 
-    // create object
     let car = {
-        type: type,
-        mpg: mpg,
-        color: color
+        cType: type,
+        cMPG: mpg,
+        cColor: color
     };
 
-    // print object to console
     console.log(car);
 }
+
 function loadCar(choice) {
     let car;
 
